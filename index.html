@@ -1,19 +1,59 @@
 <html>
     <head>
-        <title>Youtube</title>
-        <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <title>Youtube</title>
     </head>
     <body>
         <div class="navbar flex-row">
-
+            <span class="material-symbols-outlined hamburger">menu</span>
+            <div class="flex-row">
+                <img src="res/TitleLogo.png" alt="" class="logo">
+                <h3>Youtube</h3>
+            </div>
+            <div class="flex-row centerNav">
+                <div class="flex-row searchBar">
+                    <input type="text" placeholder="Search">
+                    <span class="material-symbols-outlined">close</span>
+                    <button class="circleButton"><span class="material-symbols-outlined circleButtonIcon semiSquareButton">search</span></button>
+                </div>
+                <button class="circleButton"><span class="material-symbols-outlined circleButtonIcon">mic</span></button>
+            </div>
+            <span class="material-symbols-outlined">more_vert</span>
+            <div class="flex-row signin">
+                <span class="material-symbols-outlined">account_circle</span>
+                <p>Sign in</p>
+            </div>
         </div>
         <div class="flex-row">
             <div class="sideMenu flex-column">
-
+                <div class="subSection">
+                    <div class="flex-row">
+                        <span class="material-symbols-outlined">home</span>
+                        <p>Home</p>
+                    </div>
+                    <div class="flex-row">
+                        <span class="material-symbols-outlined">slideshow</span>
+                        <p>Shorts</p>
+                    </div>
+                    <div class="flex-row">
+                        <span class="material-symbols-outlined">subscriptions</span>
+                        <p>Subscriptions</p>
+                    </div>
+                </div>
+                <div class="subSection">
+                    <div class="flex-row">
+                        <span class="material-symbols-outlined">account_circle</span>
+                        <p>You</p>
+                    </div>
+                    <div class="flex-row">
+                        <span class="material-symbols-outlined">history</span>
+                        <p>History</p>
+                    </div>
+                </div>
             </div>
             <div class="container">
                 <div class="flex-row">
